@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #3F94E7;
+	font-family: 'Roboto', helvetica, sans-serif;
+}
+
+main {
+	padding-top: 45px;
+}
+
+.container {
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+	border-radius: 4px;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 35px;
+	text-align: center;
+	color: #565656;
+	padding-top: 25px;
+}
+
+.logosizing {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	height: 35px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formlook fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.formlook input {
+	display: block;
+	width: 100%;
+	border: 2px solid #E7E7E7;
+	padding: 15px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+}
+
+.formlook label {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.buttonlook {
+	background-color: #65C470;
+	width: 100%;
+	border: 2px solid #65C970;
+	font-weight: 900;
+	font-size: 25px;
+	padding: 15px;
+	color: white;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+.buttonlook:hover {
+	background-color: #008F63;
+	border: 2px solid #008F63;
+	cursor: pointer;
+}
+
+.password {
+	font-size: 13px;
+	text-align:center;
+}
+
+a:link {
+	color: #99999C;
+}
+
+.login {
+	display: inline;
+	text-align: center;
+	font-weight: 900;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+
+.login a:link {
+	color: #ffffff;
+}
